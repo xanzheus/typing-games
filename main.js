@@ -134,7 +134,7 @@ function matchWord(){
 
 function checkStatus (){
     if(!inpaying && time==0 ){
-        message.innerHTML = 'Game Over !!!';
+        message.innerHTML = 'Game Over:(';
         score= -1;
     }
 }
