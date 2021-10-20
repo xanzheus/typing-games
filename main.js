@@ -1,5 +1,5 @@
 window.addEventListener('load',init);
-let time = 10;
+let time = 7;
 let score = 0;
 let inpaying;
 
@@ -12,12 +12,12 @@ const message = document.querySelector("#message");
 const second = document.querySelector("#second");
 
 
-const words =['gate',
+const words =['look',
     'keep',
     'jurig',
     'pluck',
     'icinisan',
-    'oak',
+    'hilih',
     'tuyul',
     'cepak',
     'jeder',
@@ -46,23 +46,23 @@ const words =['gate',
     'agony',
     'adjust',
     'bin',
-    'aid',
-    'spongebob',
+    'astor',
+    'ceket',
     'hover',
     'lake',
     'treaty',
     'fund',
     'brink',
-    'hen',
+    'ohh',
     'wood',
-    'video',
+    'sleep',
+    'call',
     'dark',
-    'loan',
     'elbow',
     'title',
     'staff',
     'level',
-    'abbey',
+    'hand',
     'fail',
     'horse',
     'quiet',
@@ -82,7 +82,7 @@ function init(){
    
 
     //coun down 
-    setInterval(countdown,1000);
+    setInterval(countdown,700);
     //chake status
     setInterval(checkStatus , 50);
 
@@ -143,7 +143,7 @@ function matchWord(){
 
 function checkStatus (){
     if(!inpaying && time==0 ){
-        message.innerHTML = 'Game Over:(';
+        message.innerHTML = 'ɢᴀᴍᴇ ᴏᴠᴇʀ:(';
         score= -1;
     }
 }
