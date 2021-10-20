@@ -112,7 +112,7 @@ function countdown (){
 function startMatch(){
     if(matchWord()){
         inpaying = true;
-        time=10
+        time=7
         showWord(words);
         wordInout.value ='';
         score++;
